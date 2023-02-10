@@ -9,9 +9,4 @@ Author URI: https://ahmed.dev
 License: All rights reserved for Ahmed Abbasi © 2023. Using, sharing or editing this plugin without any permission from the developer is strictly prohibited.
 */
 
-function init_sort_plugin_activated()
-{
-   include(plugin_dir_path(__FILE__) . 'mechanism.php');
-}
-
-register_activation_hook(__FILE__, 'init_sort_plugin_activated');
+include(plugin_dir_path(__FILE__) . 'mechanism.php');
